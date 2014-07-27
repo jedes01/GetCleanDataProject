@@ -6,12 +6,10 @@
 
 *Subject
 
-  -ID Number for Individual Subjects -
+  -ID Number for Individual Subjects
   -Factor with 30 levels
 
   -Levels run from 1 to 30
-
-
 
 *Activity
 
