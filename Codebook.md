@@ -31,19 +31,28 @@
 
 
 *The next 66 variables are measurements based on readings from the  
-phone accelerometer and gyroscope measuring motion and tilt on the 
+phone* *accelerometer and gyroscope measuring motion and tilt on the 
 X, Y, and Z axis.*
 
 Time.BodyAccel.Mean.X
+
 Time.BodyAccel.Mean.Y
+
 Time.BodyAccel.Mean.Z
+
 Time.BodyAccel.StdDev.X
+
 Time.BodyAccel.StdDev.Y
+
 Time.BodyAccel.StdDev.Z
-    Mean of both mean and standard deviation of time-domain measurements of
-    acceleration from the body (based on samples from phone 
-    accelerometer, subtracting out signal from gravity)
-    Numeric variables normalized to run from -1 to 1.
+
+ Mean of both mean and standard deviation of time-domain measurements of
+       acceleration from the body (based on samples from phone 
+accelerometer, subtracting out signal from gravity)
+ 
+Numeric variables normalized to run from -1 to 1.
+
+
 
 Time.GravityAccel.Mean.X
 Time.GravityAccel.Mean.Y
