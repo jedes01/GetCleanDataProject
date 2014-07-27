@@ -27,7 +27,8 @@ names(subData) <- sub("Acc","Accel",names(subData))
 names(subData) <- sub("Mag","Magnitude", names(subData))
 names(subData) <- sub("-mean\\(\\)-",".Mean.",names(subData))
 names(subData) <- sub("-std\\(\\)-",".StdDev.",names(subData))
-names(subData) <- sub("-mean\\(\\)", ".Mean" names(subData))
+names(subData) <- sub("-mean\\(\\)", ".Mean", names(subData))
+names(subData) <- sub("-std\\(\\)", ".Mean", names(subData))
 
 
 ## Reads in the activity identifiers from "y_train.txt" and "y_test.txt" combines them, and 
@@ -55,4 +56,4 @@ write.table(tidyData, "phoneMotionData.txt", row.names=F)
 ## called "tidyMeans" and writes tidyMeans to a file called "phoneMOtionMeans.txt"
 tidyMeans <- aggregate(tidyData, by=list(Subject,Activity), FUN=mean)
 names(tidyMeans)[1:2] <- c("Subject", "Activity")
-write.table(tidyMean, "phoneMotionMeans.txt", row.names=F)
+write.table(tidyMeans, "phoneMotionMeans.txt", row.names=F)
