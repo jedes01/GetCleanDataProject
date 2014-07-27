@@ -3,20 +3,37 @@
 
 *The first two columns are Subject and Activity:
 
-*Subject
-    ID Number for Individual Subjects - 
+*
+
+Subject
+
+    ID Number for Individual Subjects -
+ 
     Factor with 30 levels
+
     Levels run from 1 to 30
 
+
+
 Activity
-    Identifier for type of activity in which subject was engaged - 
+
+    Identifier for type of activity in which subject was engaged -
+ 
     Factor with 6 levels
+
         1 "Walking"
+
         2 "Walking Upstairs"
+
         3 "Walking Downstairs"
+
         4 "Sitting"
+
         5 "Standing"
+
         6 "Laying"
+
+
 
 *The next 66 variables are measurements based on readings from the  
 phone accelerometer and gyroscope measuring motion and tilt on the 
