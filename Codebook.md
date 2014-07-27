@@ -1,9 +1,9 @@
 # Codebook for "phoneMotionMeans.txt"
 
 
-The first two columns are Subject and Activity:
+*The first two columns are Subject and Activity:
 
-Subject
+*Subject
     ID Number for Individual Subjects - 
     Factor with 30 levels
     Levels run from 1 to 30
@@ -18,9 +18,9 @@ Activity
         5 "Standing"
         6 "Laying"
 
-The next 66 variables are measurements based on readings from the  
+*The next 66 variables are measurements based on readings from the  
 phone accelerometer and gyroscope measuring motion and tilt on the 
-X, Y, and Z axis.
+X, Y, and Z axis.*
 
 Time.BodyAccel.Mean.X
 Time.BodyAccel.Mean.Y
