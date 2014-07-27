@@ -1,18 +1,15 @@
 # Codebook for "phoneMotionMeans.txt"
 
 
-*The first two columns are Subject and Activity:
-*
+*The first two columns are Subject and Activity:*
 
-*Subject
-
+**Subject**
   -ID Number for Individual Subjects
   -Factor with 30 levels
 
   -Levels run from 1 to 30
 
-*Activity
-
+**Activity**
   -Identifier for type of activity in which subject was engaged -
  
  -Factor with 6 levels
