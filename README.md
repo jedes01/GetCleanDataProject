@@ -29,7 +29,7 @@ the R commands `read.table(phoneMotionData.txt, header=T)` or `read.table
 online to tidy data in your working directory are as follows:
 
   1. run_analysis.R will unzip that data into a folder in your working
-directory called "UCIData That folder contains a number of files,
+directory called "UCIData." That folder contains a number of files,
 with the most important being:
 
     * "UCI HAR Dataset/features.txt"
