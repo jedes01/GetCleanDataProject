@@ -40,7 +40,6 @@ with the most important being:
     * "UCI HAR Dataset/test/X_test.txt"
     * "UCI HAR Dataset/test/subject_test.txt"
     * "UCI HAR Dataset/test/y_test.txt" 
-    
  2. The bulk of the data is read from "X_train.txt" and 
 "X_test.txt" using read.table. Those two tables are merged, and variable names 
 are read in from "features.txt".
