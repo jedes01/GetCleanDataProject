@@ -47,7 +47,7 @@ Subject <- c(trainSubject,testSubject)
 Subject <- as.factor(as.numeric(Subject))
 
 
-## Combines the Subject, Activity, and subData into a single tidy dataframe "tidyData", and
+## Combines "Subject", "Activity", and "subData" into a single tidy dataframe "tidyData", and
 ## writes that data to a file called "phoneMotionData.txt"
 tidyData <- cbind(Subject,Activity,subData)
 write.table(tidyData, "phoneMotionData.txt", row.names=F)
@@ -55,5 +55,6 @@ write.table(tidyData, "phoneMotionData.txt", row.names=F)
 ## Calculates the means of each subject for each activity, stores the data in a dataframe
 ## called "tidyMeans" and writes tidyMeans to a file called "phoneMOtionMeans.txt"
 tidyMeans <- aggregate(tidyData, by=list(Subject,Activity), FUN=mean)
+tidyMeans <- tidyMeans[ -c(3,4)]
 names(tidyMeans)[1:2] <- c("Subject", "Activity")
 write.table(tidyMeans, "phoneMotionMeans.txt", row.names=F)
