@@ -28,7 +28,7 @@ the R commands `read.table(phoneMotionData.txt, header=T)` or `read.table
 * The specific steps by which run_analysis.R moves from messy data available
 online to tidy data in your working directory are as follows:
 
-  1. run_analysis.R will unzip that data into a folder in your working
+ 1. run_analysis.R will unzip that data into a folder in your working
 directory called "UCIData That folder contains a number of files,
 with the most important being:
 
@@ -40,12 +40,12 @@ with the most important being:
     * "UCI HAR Dataset/test/X_test.txt"
     * "UCI HAR Dataset/test/subject_test.txt"
     * "UCI HAR Dataset/test/y_test.txt" 
-    ___
-  2. The bulk of the data is read from "X_train.txt" and 
+    
+ 2. The bulk of the data is read from "X_train.txt" and 
 "X_test.txt" using read.table. Those two tables are merged, and variable names 
 are read in from "features.txt".
 
-  3. The data are then subsetted such that only the 
+ 3. The data are then subsetted such that only the 
 columns referring to mean() or std() are kept *(these are the columns that averaged time-domain variables; those columns labeled meanFreq(), which average frequency-domain measurements are not kept)*.
 
  4. Activity types are read in from "y_train.txt" and "y_test.txt" and converted to a factor variable according to the mapping in "activity_labels.txt".
